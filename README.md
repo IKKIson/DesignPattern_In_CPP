@@ -102,6 +102,7 @@ A software design pattern is a reusable solution to a reoccurring software desig
     <img src="https://github.com/IKKIson/DesignPattern_In_CPP/blob/master/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4!%EC%9D%B4%EB%A0%87%EA%B2%8C%ED%99%9C%EC%9A%A9%ED%95%9C%EB%8B%A4_%ED%91%9C%EC%A7%80.jpg?raw=true" width="200" height="300" />
 
 <hr/>
+
 ### Blog&Search
 
 [blog:코드, 패턴 그리고 소프트웨어](https://wikidocs.net/580)
@@ -111,6 +112,7 @@ A software design pattern is a reusable solution to a reoccurring software desig
 [blog:VallistA](http://vallista.tistory.com/entry/1-Singleton-Pattern-in-C)
 
 <hr/>
+
 ### WebSite
 
 [Huston Design Pattern](http://vincehuston.org/dp/)
