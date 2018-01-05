@@ -77,6 +77,9 @@ A software design pattern is a reusable solution to a reoccurring software desig
 
 ### Singleton
 
+<hr/>
+<hr/>
+
 ## 03 Structural Patterns - 구조 개선을 위한 디자인패턴
 ### Sample
 
@@ -114,12 +117,3 @@ A software design pattern is a reusable solution to a reoccurring software desig
 
 [wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
 
-* * *
-
-***
-
-*****
-
-- - -
-
----------------------------------------
