@@ -2,6 +2,15 @@
 A software design pattern is a reusable solution to a reoccurring software design pattern
 
 ## Prologue
+### 소프트웨어 개발?
+원하는 목적을 이루기 위하여 기준이 되는 개념이나 철학, 패러다임을 바탕으로 특별한과정, 프로세스를 거쳐 소프트웨어적인 해결책, 솔루션을 만들어내는 것이라고도 애기한다.
+
+### 소프트웨어 개발을 위한 패러다임의 관점은?
+- 구조적 관점 – Structural View
+    - 소프트웨어를 기능 위주로 기능 기준의 관점으로써 원하는 기능을 하향식으로 점진적으로 세분화, 구체화하여 솔루션을 만드는 것.
+- 객체지향적 관점 – Object Oriented View
+    - 소프트웨어를 데이터 위주로 데이터(객체) 관점으로써 구체적인 데이터들간의 상호 관계를 정의하여 원하는 목적을 달성하여 솔루션을 만들어내는 것.
+
 
 ## Creational Patterns - 객체 생성을 위한 디자인패턴
 ### Abstract Factory
