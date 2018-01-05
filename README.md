@@ -129,6 +129,15 @@ AbstractFactory는 필요한 제품 객체를 생성하는 책임을 ConcreteFac
 
 - 새로운 종류의 제품을 제공하기 어렵습니다 새로운 종류의 제품을 만들기 위해 기존 추상 팩토리를 확장하기가 쉽지 않습니다. 생성하는 제품은 추상 팩토리가 생성할 수 있는 제품 집합에만 고정되어 있기 때문입니다
 
+https://mingrammer.com/translation-10-common-software-architectural-patterns-in-a-nutshell
+
+https://www.tutorialspoint.com/design_pattern/abstract_factory_pattern.htm
+https://sourcemaking.com/design_patterns/abstract_factory
+https://wikidocs.net/898
+
+
+
+
 <hr/>
 
 ### Builder
