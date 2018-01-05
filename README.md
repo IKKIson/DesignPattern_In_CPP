@@ -14,6 +14,8 @@ A software design pattern is a reusable solution to a reoccurring software desig
 
     - 20180105 소프트웨어의 개발 개념
 
+<hr/>
+<hr/>
 
 ## 02 Creational Patterns - 객체 생성을 위한 디자인패턴
 #### About
@@ -86,9 +88,10 @@ A software design pattern is a reusable solution to a reoccurring software desig
 ## 04 Behavioral Patterns - 행동 수행 개선을 위한 디자인패턴
 ### Sample
 
- 
+<hr/>
+<hr/>
 
-## 참고자료
+## 05 참고자료
 ### Book
 - GoF의 디자인 패턴 (재사용성을 지니 객체지향 소프트웨어의 핵심 요소) [개정판]
     - 저자 : 에릭 감마 , 리처드 헬름, 랄프 존슨, 존 블리시디스 지음 | 김정아 옮김
@@ -120,4 +123,6 @@ A software design pattern is a reusable solution to a reoccurring software desig
 [SourceMaking](https://sourcemaking.com/design_patterns)
 
 [wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
+
+<hr/>
 
