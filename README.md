@@ -28,7 +28,7 @@ A software design pattern is a reusable solution to a reoccurring software desig
     -  Abstract Factory
     > Creates an instance of several families of classes
     클래스의 여러 개의 패밀리의 인스턴스들을 생성한다.
-    +Super – Sub : Inheritance
+    Super – Sub : Inheritance
 
     - Builder
     > Separates object construction from its representation
@@ -41,7 +41,7 @@ A software design pattern is a reusable solution to a reoccurring software desig
     - Object Pool
     > Avoid expensive acquisition and release of resources by recycling objects that are no longer in use
     더 이상 사용하지 않는 개체를 재활용하여 자원의 비싼 획득 및 해제를 방지한다.
-    +It prevents and improves the overhead incurred in allocating and releasing  other resources including memory(memory pool).
+    It prevents and improves the overhead incurred in allocating and releasing  other resources including memory(memory pool).
 
     - Prototype
     > A fully initialized instance to be copied or cloned
@@ -50,12 +50,9 @@ A software design pattern is a reusable solution to a reoccurring software desig
     - Singleton
     > A class of which only a single instance can exist
     하나의 인스턴스만 존재할 수 있는 클래스
-    +Classes that must exist only programmatically
+    Classes that must exist only programmatically
 
-
-
-
-
+<hr/>
 ### Abstract Factory
 
 
