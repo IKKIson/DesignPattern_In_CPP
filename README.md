@@ -12,8 +12,53 @@ A software design pattern is a reusable solution to a reoccurring software desig
     - 소프트웨어를 데이터 위주로 데이터(객체) 관점으로써 구체적인 데이터들간의 상호 관계를 정의하여 원하는 목적을 달성하여 솔루션을 만들어내는 것.
 
 
+    - 20180105 소프트웨어의 개발 개념
+
+
 ## Creational Patterns - 객체 생성을 위한 디자인패턴
+- About
+ 소프트웨어 공학에서 Creational Pattern은 객체 생성 메커니즘을 다루는 디자인 패턴으로, 상황에 적합한 방식으로 객체를 생성하려한다. 객체 생성의 기본 형식은 설계 문제들를 야기하거나, 설계를 복잡하게 만든다. Creational Patterns은 어떻게든지 객체 생성을 제어함으로써 문제를 해결한다.
+
+- Learn more
+ 생성 패턴은 객체 생성 시 인스턴스를 만드는 절차를 추상화한다. 생성 패턴들은 객체를 생성/합성하는 방법이나 객체의 표현 방법과 (소프트웨어) 시스템을 분리해주어 객체 생성 제어를 구현한다.
+
+- 클래스 생성 패턴 - 인스턴스로 만들 클래스를 다양하게 만들기 위한 용도로 상속을 사용한다.
+- 객체 생성 패턴 - 인스턴스화 작업을 다른 객체에게 떠넘긴다(의존성).
+- 생성 패턴들
+    -  Abstract Factory
+Creates an instance of several families of classes
+클래스의 여러 개의 패밀리의 인스턴스들을 생성한다.
++Super – Sub : Inheritance
+
+    - Builder
+Separates object construction from its representation
+객체 구성으로부터 표현과 분리한다.
+
+    - Factory Method
+Creates an instance of several derived classes
+여러 파생 클래스의 인스턴스를 만든다.
+
+    - Object Pool
+Avoid expensive acquisition and release of resources by recycling objects that are no longer in use
+더 이상 사용하지 않는 개체를 재활용하여 자원의 비싼 획득 및 해제를 방지한다.
++It prevents and improves the overhead incurred in allocating and releasing  other resources including memory(memory pool).
+
+    - Prototype
+A fully initialized instance to be copied or cloned
+복사 또는 복제 할 완전히 초기화된 인스턴스
+
+    - Singleton
+A class of which only a single instance can exist
+하나의 인스턴스만 존재할 수 있는 클래스
++Classes that must exist only programmatically
+
+
+
+
+
 ### Abstract Factory
+
+
 
 ## Structural Patterns - 구조 개선을 위한 디자인패턴
 ### Sample
