@@ -34,34 +34,26 @@ A software design pattern is a reusable solution to a reoccurring software desig
 
 
     - Builder
-    > Separates object construction from its representation.
-    
-    객체 구성으로부터 표현과 분리한다.
+    + Separates object construction from its representation.
+    + 객체 구성으로부터 표현과 분리한다.
 
     - Factory Method
-    > Creates an instance of several derived classes.
+    + Creates an instance of several derived classes.
+    + 여러 파생 클래스의 인스턴스를 만든다.
     
-    여러 파생 클래스의 인스턴스를 만든다.
-
     - Object Pool
-    > Avoid expensive acquisition and release of resources by recycling objects that are no longer in use.
+    + Avoid expensive acquisition and release of resources by recycling objects that are no longer in use.
+    + 더 이상 사용하지 않는 개체를 재활용하여 자원의 비싼 획득 및 해제를 방지한다.
+    + It prevents and improves the overhead incurred in allocating and releasing  other resources including memory(memory pool).
     
-    더 이상 사용하지 않는 개체를 재활용하여 자원의 비싼 획득 및 해제를 방지한다.
-    
-    It prevents and improves the overhead incurred in allocating and releasing  other resources including memory(memory pool).
-    
-
     - Prototype
-    > A fully initialized instance to be copied or cloned.
-    
-    복사 또는 복제 할 완전히 초기화된 인스턴스.
+    + A fully initialized instance to be copied or cloned.
+    + 복사 또는 복제 할 완전히 초기화된 인스턴스.
 
     - Singleton
-    > A class of which only a single instance can exist.
-    
-    하나의 인스턴스만 존재할 수 있는 클래스.
-    
-    Classes that must exist only programmatically.
+    + A class of which only a single instance can exist.
+    + 하나의 인스턴스만 존재할 수 있는 클래스.
+    + Classes that must exist only programmatically.
     
 
 <hr/>
