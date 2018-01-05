@@ -130,3 +130,4 @@ A software design pattern is a reusable solution to a reoccurring software desig
 
 I would like to thank TutorialPoint, SourceMaking, Wikipedia, VinceHuston for providing me with resources to help me with my lack of study and for me to develop myself.
 I want to study design patterns and use them freely and freely for those who need it.
+
