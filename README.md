@@ -26,16 +26,13 @@ A software design pattern is a reusable solution to a reoccurring software desig
 - 객체 생성 패턴 - 인스턴스화 작업을 다른 객체에게 떠넘긴다(의존성).
 - 생성 패턴들
     -  Abstract Factory
-    > Creates an instance of several families of classes.
-    
-    클래스의 여러 개의 패밀리의 인스턴스들을 생성한다.
-    
-    Super – Sub : Inheritance
-
+        + Creates an instance of several families of classes.
+        + 클래스의 여러 개의 패밀리의 인스턴스들을 생성한다.
+        + Super – Sub : Inheritance
 
     - Builder
-    + Separates object construction from its representation.
-    + 객체 구성으로부터 표현과 분리한다.
+        + Separates object construction from its representation.
+        + 객체 구성으로부터 표현과 분리한다.
 
     - Factory Method
         + Creates an instance of several derived classes.
@@ -60,7 +57,25 @@ A software design pattern is a reusable solution to a reoccurring software desig
 
 ### Abstract Factory
 
+<hr/>
 
+### Builder
+
+<hr/>
+
+### Factory Method
+
+<hr/>
+
+### Object Pool
+
+<hr/>
+
+### Prototype
+
+<hr/>
+
+### Singleton
 
 ## 03 Structural Patterns - 구조 개선을 위한 디자인패턴
 ### Sample
@@ -99,3 +114,12 @@ A software design pattern is a reusable solution to a reoccurring software desig
 
 [wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
 
+* * *
+
+***
+
+*****
+
+- - -
+
+---------------------------------------
