@@ -1,9 +1,13 @@
 # DesignPattern_In_CPP
 A software design pattern is a reusable solution to a reoccurring software design pattern
 
+## GitBook
+[디자인패턴의 이해와 사용을 위한 설명](https://git.gitbook.com/ikkison/designpattern.git)
+
 
 ## 02 Creational Patterns - 객체 생성을 위한 디자인패턴
-    -  Abstract Factory
+
+    - Abstract Factory
         + Creates an instance of several families of classes.
         + 클래스의 여러 개의 패밀리의 인스턴스들을 생성한다.
         + Super – Sub : Inheritance
