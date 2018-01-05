@@ -103,6 +103,7 @@ A software design pattern is a reusable solution to a reoccurring software desig
 
 <hr/>
 ### Blog&Search
+
 [blog:코드, 패턴 그리고 소프트웨어](https://wikidocs.net/580)
 
 [blog:소년코딩](http://boycoding.tistory.com/105)
@@ -111,6 +112,7 @@ A software design pattern is a reusable solution to a reoccurring software desig
 
 <hr/>
 ### WebSite
+
 [Huston Design Pattern](http://vincehuston.org/dp/)
 
 [SourceMaking](https://sourcemaking.com/design_patterns)
