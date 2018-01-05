@@ -54,6 +54,28 @@ A software design pattern is a reusable solution to a reoccurring software desig
         + 하나의 인스턴스만 존재할 수 있는 클래스.
         + Classes that must exist only programmatically.
     
+### Rules of Thumb
+1. 때로는 창조적 인 패턴이 경쟁자이기도합니다. Prototype 또는 Abstract Factory가 수익성있게 사용될 수있는 경우가 있습니다. 추상 팩토리는 복제하고 제품 객체를 반환하는 프로토 타입 세트를 저장할 수도 있습니다. [GOF, p126], 빌더는 다른 패턴 중 하나를 사용하여 빌드 할 구성 요소를 구현할 수 있습니다.
+
+2. 추상 팩토리, 빌더 및 프로토 타입은 구현시 싱글 톤을 사용할 수 있습니다. [GOF, pp 81,134]
+추상 팩토리, 빌더 및 프로토 타입은 제품 객체 클래스를 알고 생성하는 책임이있는 팩토리 객체를 정의하고이를 시스템의 매개 변수로 만듭니다. Abstract Factory에는 여러 클래스의 객체를 생성하는 factory 객체가 있습니다. Builder는 복잡한 프로토콜을 사용하여 점진적으로 복잡한 제품을 구축하는 팩토리 객체를 가지고 있습니다. Prototype에는 프로토 타입 객체를 복사하여 제품을 만드는 factory 객체 (프로토 타입이라고도 함)가 있습니다. [GOF, p135]
+
+3. Abstract Factory 클래스는 종종 Factory Methods로 구현되지만 Prototype을 사용하여 구현할 수도 있습니다. [GOF, p95]
+
+4. Abstract Factory는 플랫폼 별 클래스를 숨기기위한 Facade의 대안으로 사용할 수 있습니다. [GOF, p193]
+
+5. 빌더는 복잡한 객체를 단계별로 구성하는 데 중점을 둡니다. Abstract Factory는 제품 객체 제품군 (단순 또는 복합)을 강조합니다. Builder는 제품을 최종 단계로 반환하지만 Abstract Factory와 관련하여 제품은 즉시 반환됩니다. [GOF, p105]
+
+6. 빌더는 알고리즘이 전략으로 창조하는 것입니다. [아이콘, p8-13]
+
+7. 빌더는 종종 컴포지트를 만듭니다. [GOF, p106]
+
+8. Factory Methods는 일반적으로 Template Methods 내에서 호출됩니다. [GOF, p116]
+
+9. Factory Method : 상속을 통한 생성. 프로토 타입 : 위임을 통한 생성.
+종종 디자이너는 Factory Method (덜 복잡하고보다 사용자 정의가 가능하며 하위 클래스가 확산 됨)를 사용하여 시작하고 디자이너가 더 많은 유연성을 필요로하는 곳에서 발견 할 때 Abstract Factory, Prototype 또는 Builder (보다 유연하고 복잡한)로 발전합니다. [GOF, p136]
+11. 프로토 타입은 서브 클래 싱을 필요로하지 않지만 초기화 작업이 필요합니다. 팩토리 메소드는 하위 클래스 화가 필요하지만 초기화는 필요하지 않습니다. [GOF, p116]
+12. Composite 및 Decorator 패턴을 많이 사용하는 디자인은 종종 Prototype에서도 도움이됩니다. [GOF, p126]
 
 <hr/>
 
